@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">My Yearbook</string>
-    <string name="hello_world">Alexander Behrhof\nI Intern at SCWA</string>
+    <string name="hello_world">Alexander Behrhof\n\nI Intern at SCWA</string>
     <string name="scwa_logo">SCWA LOGO</string>
+    <string name="next_text_button">Next</string>
+    <string name="button_click_text">Alexander Behrhof\n\nMy Cool App</string>
 </resources>

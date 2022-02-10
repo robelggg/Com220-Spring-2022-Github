@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity" android:orientation="vertical">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" android:orientation="vertical">
     <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="0dp" tools:srcCompat="@drawable/logo" android:id="@+id/imageView"
-            android:layout_weight="1" app:srcCompat="@drawable/logo" android:contentDescription="@string/scwa_logo"
-            android:padding="5"/>
+        android:layout_width="match_parent"
+        android:layout_height="0dp" tools:srcCompat="@drawable/logo" android:id="@+id/imageView"
+        android:layout_weight="1" app:srcCompat="@drawable/logo" android:contentDescription="@string/scwa_logo"
+        android:padding="5sp"/>
     <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
+        <Button
+            android:text="@string/next_text_button"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content" android:id="@+id/button" android:onClick="onClickBtn"
+            android:translationY="-250px"/>
         <TextView
-                android:layout_width="317dp"
-                android:layout_height="150dp"
-                android:background="#15C11C"
-                android:text="@string/hello_world"
-                android:textColor="#050505"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:layout_gravity="center"/>
+            android:layout_width="317dp"
+            android:layout_height="150dp"
+            android:background="#15C11C"
+            android:text="@string/hello_world"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center" android:id="@+id/screen_text"/>
     </LinearLayout>
 
 </LinearLayout>
