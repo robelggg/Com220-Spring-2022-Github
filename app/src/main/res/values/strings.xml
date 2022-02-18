@@ -23,8 +23,8 @@
     <string name="alex_bottom_text">Alexander Behrhof\n\nI Intern at SCWA</string>
 
     <string name="davia_button">Davia\'s Yearbook</string>
-    <string name="davia_graduation_plan"></string>
-    <string name="davia_bottom_text"></string>
+    <string name="davia_graduation_plan"> my graduation plan is to obtain an internship, then a full time job\n as a cyber security specialist. </string>
+    <string name="davia_bottom_text"> Davia Balford was born with extra fingers. </string>
 
     <string name="robel_button">Robel\'s Yearbook</string>
     <string name="robel_graduation_plan">Robel made this</string>
