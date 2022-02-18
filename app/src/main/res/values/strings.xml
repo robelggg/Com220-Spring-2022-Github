@@ -1,7 +1,32 @@
 <resources>
     <string name="app_name">My Yearbook</string>
-    <string name="hello_world">Alexander Behrhof\n\nI Intern at SCWA</string>
+
     <string name="scwa_logo">SCWA LOGO</string>
-    <string name="next_text_button">Next</string>
+
+    <string name="next_button">Next Screen</string>
+    <string name="return_button">Return Home</string>
+    <string name="return_home_button">Return home</string>
+
     <string name="button_click_text">Alexander Behrhof\n\nMy Cool App</string>
+
+    <string name="alex_button">Alex\'s Yearbook</string>
+    <string name="alex_graduation_plan">The steps I am taking to prepare for a job after graduation:
+        \n\n
+        1. Taking any programming classes that I can take for experience.
+        \n\n
+        2. Taking an Internship to gain more work experience
+        \n\n
+        3. Expanding my knowledge by creating just for fun examples using code.
+        \n\n
+        4. Opening up what I am willing to code and what languages.
+    </string>
+    <string name="alex_bottom_text">Alexander Behrhof\n\nI Intern at SCWA</string>
+
+    <string name="davia_button">Davia\'s Yearbook</string>
+    <string name="davia_graduation_plan"></string>
+    <string name="davia_bottom_text"></string>
+
+    <string name="robel_button">Robel\'s Yearbook</string>
+    <string name="robel_graduation_plan">Robel made this</string>
+    <string name="robel_bottom_text">Hello World!</string>
 </resources>

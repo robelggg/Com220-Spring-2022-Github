@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.davia.MainActivity" android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp" tools:srcCompat="@drawable/robel_image" android:id="@+id/imageView2"
+        android:layout_weight="1" app:srcCompat="@drawable/robel_image"
+        android:contentDescription="@string/scwa_logo"
+        android:padding="5sp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
+        <Button
+            android:text="@string/next_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content" android:id="@+id/nextScreenBtn" android:onClick="onClickBtn"
+            android:translationY="-250px"/>
+        <Button
+            android:text="@string/return_home_button"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content" android:id="@+id/returnHomeButton" android:onClick="onClickHomeBtn"
+            android:translationY="-250px"/>
+        <TextView
+            android:layout_width="317dp"
+            android:layout_height="150dp"
+            android:background="#15C11C"
+            android:text="@string/robel_bottom_text"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:layout_gravity="center" android:id="@+id/steps_test"/>
+    </LinearLayout>
+
+</LinearLayout>
+

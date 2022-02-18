@@ -3,21 +3,54 @@
           package="com.alexanderbehrhof.myyearbook">
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/Theme.MyYearbook">
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyYearbook">
+
         <activity
-                android:name=".MainActivity"
-                android:exported="true">
+            android:name=".Dashboard"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <!--Alex Activity-->
+        <activity
+            android:name=".activities.alex.MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".activities.alex.GraduationPlanActivity"
+            android:exported="true">
+        </activity>
+
+        <!--Davia Activity-->
+        <activity
+            android:name=".activities.davia.MainActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".activities.davia.GraduationPlanActivity"
+            android:exported="true">
+        </activity>
+
+        <!--Robel Activity-->
+        <activity
+            android:name=".activities.robel.MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".activities.robel.GraduationPlanActivity"
+            android:exported="true">
+        </activity>
+
     </application>
 
 </manifest>

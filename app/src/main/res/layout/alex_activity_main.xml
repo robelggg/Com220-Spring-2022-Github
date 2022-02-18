@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" android:orientation="vertical">
+    tools:context=".activities.alex.MainActivity" android:orientation="vertical">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp" tools:srcCompat="@drawable/logo" android:id="@+id/imageView"
@@ -16,19 +16,24 @@
         android:layout_width="match_parent"
         android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
         <Button
-            android:text="@string/next_text_button"
+            android:text="@string/next_button"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content" android:id="@+id/nextScreenBtn" android:onClick="onClickBtn"
+            android:translationY="-250px"/>
+        <Button
+            android:text="@string/return_home_button"
             android:layout_width="126dp"
-            android:layout_height="wrap_content" android:id="@+id/button" android:onClick="onClickBtn"
+            android:layout_height="wrap_content" android:id="@+id/returnHomeButton" android:onClick="onClickHomeBtn"
             android:translationY="-250px"/>
         <TextView
             android:layout_width="317dp"
             android:layout_height="150dp"
             android:background="#15C11C"
-            android:text="@string/hello_world"
+            android:text="@string/alex_bottom_text"
             android:textColor="#050505"
             android:textSize="24sp"
             android:gravity="center"
-            android:layout_gravity="center" android:id="@+id/screen_text"/>
+            android:layout_gravity="center" android:id="@+id/steps_test"/>
     </LinearLayout>
 
 </LinearLayout>
