@@ -23,10 +23,18 @@
     <string name="alex_bottom_text">Alexander Behrhof\n\nI Intern at SCWA</string>
 
     <string name="davia_button">Davia\'s Yearbook</string>
-    <string name="davia_graduation_plan"> my graduation plan is to obtain an internship, then a full time job\n as a cyber security specialist. </string>
-    <string name="davia_bottom_text"> Davia Balford was born with extra fingers. </string>
+    <string name="davia_graduation_plan">my graduation plan is to obtain an internship, then a full time
+        \n as a cyber security specialist.
+    </string>
+    <string name="davia_bottom_text">Davia Balford was born with extra fingers.</string>
 
     <string name="robel_button">Robel\'s Yearbook</string>
     <string name="robel_graduation_plan">Robel made this</string>
     <string name="robel_bottom_text">Hello World!</string>
+
+    <string name="channel_name">MY_YEARBOOK</string>
+    <string name="channel_description">My Yearbook Notifications</string>
+
+    <string name="notification_title">My Yearbook Notification</string>
+    <string name="notification_text">Return to my yearbook app!</string>
 </resources>
