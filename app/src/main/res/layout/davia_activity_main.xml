@@ -10,34 +10,52 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="220dp"
         android:layout_weight="1"
         android:contentDescription="@string/scwa_logo"
         app:srcCompat="@drawable/davia_image"
         tools:srcCompat="@drawable/davia_image" />
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="0dp" android:layout_weight="1" android:gravity="bottom|center">
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom|center"
+        android:orientation="vertical">
+
         <Button
-            android:text="@string/next_button"
+            android:id="@+id/sharePictureBtn"
             android:layout_width="125dp"
-            android:layout_height="wrap_content" android:id="@+id/nextScreenBtn" android:onClick="onClickBtn"
-            android:translationY="-250px"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClickShareBtn"
+            android:text="@string/share_button"
+            android:translationY="-250px" />
+
         <Button
-            android:text="@string/return_home_button"
+            android:id="@+id/nextScreenBtn"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClickBtn"
+            android:text="@string/next_button"
+            android:translationY="-250px" />
+
+        <Button
+            android:id="@+id/returnHomeButton"
             android:layout_width="126dp"
-            android:layout_height="wrap_content" android:id="@+id/returnHomeButton" android:onClick="onClickHomeBtn"
-            android:translationY="-250px"/>
+            android:layout_height="wrap_content"
+            android:onClick="onClickHomeBtn"
+            android:text="@string/return_home_button"
+            android:translationY="-250px" />
+
         <TextView
+            android:id="@+id/steps_test"
             android:layout_width="317dp"
             android:layout_height="150dp"
+            android:layout_gravity="center"
             android:background="#15C11C"
+            android:gravity="center"
             android:text="@string/davia_bottom_text"
             android:textColor="#050505"
-            android:textSize="24sp"
-            android:gravity="center"
-            android:layout_gravity="center" android:id="@+id/steps_test"/>
+            android:textSize="24sp" />
     </LinearLayout>
 
 </LinearLayout>

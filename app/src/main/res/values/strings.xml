@@ -6,7 +6,7 @@
     <string name="next_button">Next Screen</string>
     <string name="return_button">Return Home</string>
     <string name="return_home_button">Return home</string>
-
+    <string name="share_button">Share Image</string>
     <string name="button_click_text">Alexander Behrhof\n\nMy Cool App</string>
 
     <string name="alex_button">Alex\'s Yearbook</string>
