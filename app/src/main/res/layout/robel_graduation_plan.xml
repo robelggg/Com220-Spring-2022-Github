@@ -6,32 +6,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.davia.GraduationPlanActivity" android:orientation="vertical">
+
     <EditText
+        android:id="@+id/multiLine"
         android:layout_width="match_parent"
-        android:layout_height="446dp"
-        android:gravity="start|center_horizontal|top|center_vertical"
+        android:layout_height="276dp"
+        android:editable="false"
         android:ems="10"
-        android:id="@+id/multiLine" android:text="@string/robel_graduation_plan" android:textSize="24sp"
-        android:textAlignment="center" android:textIsSelectable="false" android:editable="false"/>
+        android:gravity="start|center_horizontal|top|center_vertical"
+        android:text="@string/robel_graduation_plan"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="24sp" />
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent" android:layout_weight="1" android:gravity="bottom|center">
+
+
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
         <Button
-            android:text="@string/return_button"
-            android:layout_width="126dp"
-            android:layout_height="wrap_content" android:id="@+id/returnHomeButton"
+            android:id="@+id/returnHomeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
             android:onClick="onClickHomeBtn"
-            android:translationY="-250px"/>
-        <TextView
-            android:layout_width="317dp"
-            android:layout_height="150dp"
-            android:background="#15C11C"
-            android:text="@string/robel_bottom_text"
-            android:textColor="#050505"
-            android:textSize="24sp"
-            android:gravity="center"
-            android:layout_gravity="center" android:id="@+id/steps_test"/>
+            android:text="@string/return_button"
+            android:translationY="-250px" />
     </LinearLayout>
 
 </LinearLayout>
