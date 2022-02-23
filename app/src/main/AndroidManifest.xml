@@ -8,7 +8,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyYearbook">
+        android:theme="@style/Theme.MyYearbook"
+        android:name=".MyYearbook">
 
         <activity
             android:name=".Dashboard"
@@ -23,31 +24,37 @@
         <!--Alex Activity-->
         <activity
             android:name=".activities.alex.MainActivity"
+            android:parentActivityName=".Dashboard"
             android:exported="true">
         </activity>
         <activity
             android:name=".activities.alex.GraduationPlanActivity"
+            android:parentActivityName=".activities.alex.MainActivity"
             android:exported="true">
         </activity>
 
         <!--Davia Activity-->
         <activity
             android:name=".activities.davia.MainActivity"
+            android:parentActivityName=".Dashboard"
             android:exported="true">
         </activity>
 
         <activity
             android:name=".activities.davia.GraduationPlanActivity"
+            android:parentActivityName=".activities.davia.MainActivity"
             android:exported="true">
         </activity>
 
         <!--Robel Activity-->
         <activity
             android:name=".activities.robel.MainActivity"
+            android:parentActivityName=".Dashboard"
             android:exported="true">
         </activity>
         <activity
             android:name=".activities.robel.GraduationPlanActivity"
+            android:parentActivityName=".activities.robel.MainActivity"
             android:exported="true">
         </activity>
 
